@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="56.119" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login Page Functional Testing" name="Testing the selecting the seat of bus in MakeMyTrip" time="55.681">
+<system-out><![CDATA[
+Given User is on the MakeMyTrip.............................................passed
+When User clicks on the bus.................................................passed
+And User enters the fromcity................................................passed
+And User enters the destination city........................................passed
+And User selects the date...................................................passed
+And User clicks on the search button........................................passed
+And User redirected to bus list page........................................passed
+And User selects the preferd bus............................................passed
+And User selcts the pickup and drop point locations.........................passed
+And User click on the continue button.......................................passed
+And User redirected to the complete your booking page.......................passed
+And User fills the personal detils..........................................passed
+And User clicks on the continue button......................................passed
+Then User is redirected to Payment page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
