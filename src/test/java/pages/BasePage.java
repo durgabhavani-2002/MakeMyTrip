@@ -27,10 +27,10 @@ public class BasePage {
 	}
 
 	// The method is for webdriver wait
-	public void waitMethod(int time, By fromcity) {
+	public void waitMethod(int time, By ele) {
 
 		WebDriverWait wb = new WebDriverWait(driver, Duration.ofSeconds(time));
-		wb.until(ExpectedConditions.elementToBeClickable(fromcity));
+		wb.until(ExpectedConditions.elementToBeClickable(ele));
 
 	}
 
